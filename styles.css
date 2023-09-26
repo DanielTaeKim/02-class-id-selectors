@@ -17,3 +17,11 @@
     font-weight: 700;
 }
 
+/* Could've reduced repetitive code of 'font-size: 24px;' by creating a
+class 'adjust-font' and use it for numbers 3 and 4 because they use the 
+same font size. So then number 3 and 4 would look like this respectively:
+
+<p class="odd adjust-font">Number 3 - I'm a class, but cooler!</p> 
+<div id="number-four" class="adjust-font-size">Number 4 - I'm another ID.</div>
+
+Notice how number 4 has both an id AND class in the opening tag.*/
